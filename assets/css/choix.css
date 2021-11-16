@@ -1,0 +1,77 @@
+body {
+  color: #fff2ce;
+  background-color: #000822;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+  text-align: center;
+  min-height: 125px;
+  align-items: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  -ms-flex-item-align: auto;
+      align-self: auto;
+  margin: 5px;
+  background-color: chocolate;
+}
+
+ul li:hover {
+  -webkit-transform: scaleX(1.01);
+          transform: scaleX(1.01);
+  background-color: #ac571a;
+}
+
+ul li a {
+  font-size: 2.65vw;
+}
+
+ul li a:link {
+  color: black;
+  text-decoration: none;
+}
+
+ul li a:visited {
+  color: black;
+  text-decoration: none;
+}
+/*# sourceMappingURL=choix.css.map */

@@ -1,0 +1,5 @@
+Le "fichier de préférence pour Dactylo'" sert à restaurer la norme belge.
+
+Il s'installe à l'adresse : " C:\Users\Administrator\AppData\Local\Microsoft\Office "
+
+Il est à employer avec le fichier " DactyloTheme.thmx " qui est un ensemble de style à importer dans l'onglet "Conception".

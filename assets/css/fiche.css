@@ -1,0 +1,112 @@
+body {
+  color: #fff2ce;
+  background-color: #000822;
+}
+
+nav {
+  width: 100vw;
+  border-left: chocolate 2px solid;
+  border-right: chocolate 2px solid;
+  background-color: darkslategrey;
+}
+
+nav h2 {
+  background-color: chocolate;
+  color: black;
+  width: 100%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  background-color: white;
+  display: inline;
+  padding: 2px 10px;
+  border-radius: 10%;
+}
+
+nav ul li:hover {
+  background-color: grey;
+}
+
+nav ul li:hover a:link {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li:hover a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:link {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90vw;
+  border-left: chocolate 2px solid;
+  background-color: darkslategrey;
+}
+
+main h2 {
+  background-color: chocolate;
+  color: black;
+  width: 100%;
+  border-bottom-right-radius: 50%;
+}
+
+main p {
+  padding-left: 10px;
+}
+
+aside {
+  position: absolute;
+  right: 0;
+  text-align: center;
+  background: #3d0000;
+  padding: 5px;
+}
+
+@media screen and (min-width: 400px) {
+  aside {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  aside {
+    bottom: 0;
+  }
+}
+
+aside:hover {
+  background: #1a0101;
+}
+
+aside a li {
+  padding: 5px;
+}
+
+aside a:link {
+  color: white;
+  text-decoration: none;
+}
+
+aside a:link:after {
+  content: "Menu Principal";
+}
+
+aside a:visited {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=fiche.css.map */
