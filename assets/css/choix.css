@@ -1,77 +1,160 @@
 body {
-  color: #fff2ce;
   background-color: #000822;
 }
 
 h1 {
   text-align: center;
+  color: #b3c3f5;
 }
 
-ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33.33%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  display: none;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: justify;
-      align-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  gap: 10px;
+  padding: 10px;
 }
 
-ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 45%;
+.tabcontent a {
+  margin: 10px;
+}
+
+#prat {
+  background-color: red;
+  color: black;
+}
+
+#prat a:visited {
+  color: #fff;
+}
+
+#prat a:link {
+  text-decoration: none;
+  padding: 15px 15px;
+  font-size: 24px;
   text-align: center;
-  min-height: 125px;
-  align-items: center;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
-  -ms-flex-item-align: auto;
-      align-self: auto;
-  margin: 5px;
-  background-color: chocolate;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #750000;
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 9px #999;
+          box-shadow: 0 9px #999;
 }
 
-ul li:hover {
-  -webkit-transform: scaleX(1.01);
-          transform: scaleX(1.01);
-  background-color: #ac571a;
+#prat a:hover {
+  background-color: #ff4444;
 }
 
-ul li a {
-  font-size: 2.65vw;
+#prat a:active {
+  background-color: #ff4444;
+  -webkit-box-shadow: 0 5px #666;
+          box-shadow: 0 5px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
-ul li a:link {
+#meto {
+  background-color: green;
   color: black;
-  text-decoration: none;
 }
 
-ul li a:visited {
-  color: black;
+#meto a:visited {
+  color: #fff;
+}
+
+#meto a:link {
   text-decoration: none;
+  padding: 15px 15px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #003500;
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 9px #999;
+          box-shadow: 0 9px #999;
+}
+
+#meto a:hover {
+  background-color: #3e8e41;
+}
+
+#meto a:active {
+  background-color: #3e8e41;
+  -webkit-box-shadow: 0 5px #666;
+          box-shadow: 0 5px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
+#theo {
+  background-color: blue;
+  color: white;
+}
+
+#theo a:visited {
+  color: #fff;
+}
+
+#theo a:link {
+  text-decoration: none;
+  padding: 15px 15px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #000088;
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 9px #999;
+          box-shadow: 0 9px #999;
+}
+
+#theo a:hover {
+  background-color: #4747f7;
+}
+
+#theo a:active {
+  background-color: #4747f7;
+  -webkit-box-shadow: 0 5px #666;
+          box-shadow: 0 5px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 /*# sourceMappingURL=choix.css.map */
