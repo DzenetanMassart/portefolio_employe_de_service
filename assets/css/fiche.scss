@@ -56,6 +56,9 @@ nav {
 }
 
 section {
+    font-size:25px;
+    color: rgb(46, 46, 46);
+
     width: 80%;
     margin: 0 auto;
     @media screen and (orientation: portrait) {
@@ -69,15 +72,16 @@ section {
     @media screen and (orientation: landscape) {
         h2 {
             background-color: $c1;
-            color: wheat;
+            color: rgb(238, 238, 238);
             border-bottom-right-radius: 50%;
-            font-size: 2em;
+            font-size: 1.9em;
         }
     }
     border-left: $c1 2px solid;
-    background-color: #0078e7;
+    background-color: #bac8d4b4;
     border-radius: 0 0 5px 5px;
     margin-bottom: 10px;
+    font-weight: bold;
     div {
         width: 100%;
         @media screen and (orientation: landscape) {

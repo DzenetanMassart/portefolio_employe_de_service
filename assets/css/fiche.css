@@ -69,12 +69,15 @@ nav ul li a:link {
 }
 
 section {
+  font-size: 25px;
+  color: #2e2e2e;
   width: 80%;
   margin: 0 auto;
   border-left: #00e7ff42 2px solid;
-  background-color: #0078e7;
+  background-color: #bac8d4b4;
   border-radius: 0 0 5px 5px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 @media screen and (orientation: portrait) {
@@ -89,9 +92,9 @@ section {
 @media screen and (orientation: landscape) {
   section h2 {
     background-color: #00e7ff42;
-    color: wheat;
+    color: #eeeeee;
     border-bottom-right-radius: 50%;
-    font-size: 2em;
+    font-size: 1.9em;
   }
 }
 
