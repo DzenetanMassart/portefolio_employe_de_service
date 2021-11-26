@@ -1,17 +1,31 @@
-$(document).ready(function() {
+function scrollTo(element, to = 0, duration= 1000) {
 
-    $('.scrollTo').click( function() { // Au clic sur un élément
+    const start = element.scrollTop;
+    const change = to - start;
+    const increment = 20;
+    let currentTime = 0;
 
-            var page = $(this).attr('href'); // Page cible
+    const animateScroll = (() => {
 
-            var speed = 750; // Durée de l'animation (en ms)
+      currentTime += increment;
 
-            $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+      const val = Math.easeInOutQuad(currentTime, start, change, duration);
 
-            return false;
+      element.scrollTop = val;
 
+      if (currentTime < duration) {
+        setTimeout(animateScroll, increment);
+      }
     });
 
-});
+    animateScroll();
+  };
 
-//]]>
+  Math.easeInOutQuad = function (t, b, c, d) {
+
+    t /= d/2;
+    if (t < 1) return c/2*t*t + b;
+    t--;
+    return -c/2 * (t*(t-2) - 1) + b;
+  };
+

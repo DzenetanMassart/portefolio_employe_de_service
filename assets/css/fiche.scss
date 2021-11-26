@@ -105,7 +105,7 @@ section {
                     img {
                         width: 100%;
                     }
-                }
+                
             }
             @media screen and (orientation:portrait) {
                 width: 100%;
@@ -120,7 +120,18 @@ section {
     }
 }
 
-aside {
+
+
+
+em {
+    color: yellow;
+    font-weight: bold;
+}
+
+
+
+    
+}aside {
     position: fixed;
     @media screen and (orientation: landscape) {
         top: 0;
@@ -133,6 +144,7 @@ aside {
     background:rgba(255, 0, 0, 0.205);
     padding:5px;
     transition:background 0.2s;
+    width: 15%;
     &:hover {
         background: rgb(255, 0, 0);
     }
@@ -154,10 +166,11 @@ aside {
             color: white;
             text-decoration: none;
         }
-    }
-}
+    }}
 
-em {
-    color: yellow;
-    font-weight: bold;
+    img{
+        width:100%;
+        &:hover{
+            cursor:pointer;
+        }
 }
