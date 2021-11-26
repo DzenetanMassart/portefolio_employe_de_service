@@ -50,6 +50,10 @@ html {
   margin: 10px;
 }
 
+.tabcontent a:hover {
+  padding: 10px 15px;
+}
+
 #prat {
   background-color: red;
   color: black;

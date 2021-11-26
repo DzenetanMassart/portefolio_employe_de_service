@@ -33,6 +33,7 @@ html {
 
 .tablink:hover {
     background-color: #777;
+
 }
 
 
@@ -47,6 +48,9 @@ html {
     padding: 10px;
     a {
         margin: 10px;
+        &:hover{
+            padding:10px 15px;
+        }
     }
 }
 
