@@ -21,3 +21,18 @@ function openPage(pageName, elmnt, color) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+document.onkeydown = checkKey;
+
+function checkKey(e) {
+e = e || window.event;
+
+    if (e.keyCode == '38') {
+        openPage('meto', this, 'green')
+    }
+    else if (e.keyCode == '37') {
+        openPage('prat', this, 'red');
+    }
+    else if (e.keyCode == '39') {
+        openPage('theo', this, 'blue')
+    }}
